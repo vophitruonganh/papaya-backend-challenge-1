@@ -61,3 +61,5 @@ const resizeImage = async (imageBuffer: Buffer, width: number, height: number): 
 }
 
 exports.handler = getImage
+
+export default getImage;
