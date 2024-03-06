@@ -22,3 +22,7 @@ https://github.com/papaya-insurtech/pumpkin/blob/main/Software_Artisan_Challenge
  - Setup API Gateway to trigger Lambda function.
  - Allow permission read/write to S3 bucket for Lambda function.
  - Setup CloudFront to cache image by request and query parameter.
+
+## Testable link & image
+Image 1: https://d10lewrwu1cxpw.cloudfront.net/image/avatar-2.png?width=200
+Image 2: https://d10lewrwu1cxpw.cloudfront.net/image/avatar.jpg?width=200
