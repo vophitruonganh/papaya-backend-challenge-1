@@ -1,0 +1,33 @@
+{
+  "name": "testing-backend-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=local nodemon "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.134",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.24",
+    "@types/sharp": "^0.32.0",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1570.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "global": "^4.4.0",
+    "sharp": "^0.33.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^7.1.1"
+  }
+}
