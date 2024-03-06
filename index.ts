@@ -31,6 +31,10 @@ const getImage = async (event: EventDto): Promise<any> => {
 		if (width) imageBuffer = await resizeImage(imageBuffer, width, height);
 
 		return {
+			statusCode: 200,
+			headers: {'Content-Type': `image/${imageExtension}`},
+			isBase64Encoded: true,
+			body: imageBuffer.toString('base64')
 		};
 	} catch (error) {
 		console.error('Error', error);
